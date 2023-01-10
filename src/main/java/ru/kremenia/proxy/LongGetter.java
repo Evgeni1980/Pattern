@@ -1,0 +1,10 @@
+package ru.kremenia.proxy;
+
+public class LongGetter {
+
+    public  long getLong(long value) throws InterruptedException {
+        Thread.sleep(2000);
+        return value;
+    }
+
+}
